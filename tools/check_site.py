@@ -8,7 +8,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 POSTS = ROOT / "_posts"
-REQUIRED = {"layout", "title", "date", "project", "summary", "cover", "source"}
+REQUIRED = {"layout", "title", "date", "project", "summary", "cover"}
 
 
 def front_matter(path: Path) -> dict[str, str]:

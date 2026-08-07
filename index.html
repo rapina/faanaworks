@@ -27,13 +27,21 @@ title: "개발 기록"
     <h2 id="projects-title">지금 연결된 게임</h2>
   </div>
   {% for project in site.data.projects %}
+  {% if project.repository %}
   <a class="project-line" href="{{ project.repository }}" style="--signal: {{ project.signal }}">
+  {% else %}
+  <div class="project-line" style="--signal: {{ project.signal }}">
+  {% endif %}
     <span class="socket is-live"></span>
     <span class="project-name">{{ project.name }}</span>
     <span>{{ project.description }}</span>
     <span class="project-tech">{{ project.engine }}</span>
     <b>{{ project.status }}</b>
+  {% if project.repository %}
   </a>
+  {% else %}
+  </div>
+  {% endif %}
   {% endfor %}
 </section>
 
