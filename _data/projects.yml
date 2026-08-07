@@ -1,0 +1,7 @@
+- name: "Civil Twilight"
+  slug: "civil-twilight"
+  status: "제작 중"
+  engine: "Godot 4.7"
+  description: "안개가 걷힌 밤의 도시를 탐사하는 서바이벌 호러"
+  repository: "https://github.com/rapina/site0"
+  signal: "#d8a35d"

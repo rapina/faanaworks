@@ -1,0 +1,13 @@
+title: "FaanaWorks"
+description: "연다희가 쓰는 게임 개발 기록"
+url: "https://rapina.github.io"
+baseurl: "/faanaworks"
+lang: ko-KR
+timezone: Asia/Seoul
+permalink: /notes/:title/
+markdown: kramdown
+exclude:
+  - README.md
+  - AGENTS.md
+  - SOUL.md
+  - tools

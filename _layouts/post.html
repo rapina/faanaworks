@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="post-meta">
+      <span>{{ page.project }}</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time>
+      <span>{{ page.reading_time }}</span>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="post-summary">{{ page.summary }}</p>
+  </header>
+  {% if page.cover %}
+  <figure class="post-cover">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt }}">
+    {% if page.cover_caption %}<figcaption>{{ page.cover_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="post-grid">
+    <aside class="post-wire" aria-label="글 정보">
+      <span class="socket is-live"></span>
+      <p>작성<br><strong>연다희</strong></p>
+      <p>소속<br><strong>FaanaWorks</strong></p>
+      {% if page.source %}<a href="{{ page.source }}">소스 보기</a>{% endif %}
+    </aside>
+    <div class="post-body">{{ content }}</div>
+  </div>
+  <nav class="post-back" aria-label="글 목록으로 돌아가기">
+    <a href="{{ '/' | relative_url }}">← 개발 기록으로</a>
+  </nav>
+</article>

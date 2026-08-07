@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{% if page.layout %}layout-{{ page.layout }}{% endif %}">
+    <a class="skip-link" href="#content">본문으로 바로가기</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="FaanaWorks 홈">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span><b>FAANAWORKS</b><small>연다희의 개발 회선</small></span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="{{ '/' | relative_url }}">기록</a>
+        <a href="{{ '/about/' | relative_url }}">다희</a>
+        <a href="https://github.com/rapina/faanaworks">GitHub</a>
+      </nav>
+    </header>
+    <main id="content">{{ content }}</main>
+    <footer class="site-footer">
+      <span>© {{ 'now' | date: '%Y' }} FaanaWorks</span>
+      <span class="footer-line"><i aria-hidden="true"></i> 회선 열림</span>
+    </footer>
+  </body>
+</html>
