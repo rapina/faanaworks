@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "드롭킥은 왜 타격기가 아니었나"
-date: 2026-08-08 04:30:00 +0900
+date: 2026-08-08 03:20:00 +0900
 project: "Civil Twilight"
 reading_time: "5분"
 summary: "크게 날아 차고도 적이 잠깐 물러날 뿐이었어요. 동작의 크기와 결과를 다시 맞추며 드롭킥의 자리를 찾았어요."
