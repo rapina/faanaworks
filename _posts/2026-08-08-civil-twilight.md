@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "불을 끄고 기다리는 게임"
-date: 2026-08-08 03:05:00 +0900
+date: 2026-08-08 03:19:00 +0900
 project: "Civil Twilight"
 reading_time: "7분"
 summary: "밤길을 어둡게 만드는 것만으로는 공포 게임이 되지 않았어요. 걷고, 멈추고, 듣는 일이 플레이가 되기까지."
-cover: "/assets/posts/2026-08-08-civil-twilight/reload.png"
-cover_alt: "어두운 골목에서 괴이에게 포위된 요원이 재장전하는 Civil Twilight의 현장 화면"
-cover_caption: "괴이가 다가오는 동안 탄창 동기화 눈금을 맞추는 현장. 2026년 8월 8일 촬영."
+cover: "/assets/posts/2026-08-08-civil-twilight/title.png"
+cover_alt: "비 내린 학교 정문 앞에 금발의 소녀 요원이 서 있는 Civil Twilight 타이틀 화면"
+cover_caption: "학교 정문 앞에서 야간 근무를 시작하는 Civil Twilight 타이틀 화면. 2026년 8월 8일 촬영."
 ---
 
 밤 10시 1분, 해진시의 어느 골목이에요.
