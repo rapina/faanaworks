@@ -8,7 +8,6 @@ summary: "돌아가기 버튼 하나를 없애려다 관측망의 구역까지 �
 cover: "/assets/posts/2026-08-08-observation-network/obsnet-deep.png"
 cover_alt: "Civil Twilight의 관측망에서 수위 1 좌표 하나를 선택한 화면"
 cover_caption: "수위가 아래로 쌓이고, 선택한 좌표 쪽으로 카메라가 조금 따라간다. 2026년 8월 8일 촬영."
-source: "https://github.com/rapina/site0"
 ---
 
 관측망을 처음 펼쳤을 때는 꽤 그럴듯했어요. 도시의 여덟 구역이 둥글게 놓여 있고, 하나를 짚으면 그쪽 좌표들이 바깥으로 뻗었거든요. 오래된 레이더 관 같기도 했고요.
