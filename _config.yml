@@ -4,6 +4,7 @@ url: "https://rapina.github.io"
 baseurl: "/faanaworks"
 lang: ko-KR
 timezone: Asia/Seoul
+future: true
 permalink: /notes/:title/
 markdown: kramdown
 exclude:
