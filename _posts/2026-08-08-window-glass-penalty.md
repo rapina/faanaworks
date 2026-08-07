@@ -6,8 +6,8 @@ project: "Civil Twilight"
 reading_time: "5분"
 summary: "창 뒤 벽의 광점을 유리 반사로 잘못 본 뒤, 실제 창 면이 빛나고 깨지면 사라지는지 다시 검증했어요. 숫자로 숨긴 대가를 빛과 파쇄음으로 바꾼 과정이에요."
 cover: "/assets/posts/2026-08-08-window-glass-penalty/lit.png"
-cover_alt: "요원이 손전등을 비춘 건물 창에 청백색 유리 반사가 나타난 Civil Twilight 야간 화면"
-cover_caption: "수정 뒤 다시 촬영한 화면. 손전등이 닿은 창틀 안쪽에 청백색 유리 면이 잡힌다. 2026년 8월 8일 촬영."
+cover_alt: "실제 유리 메시의 윤곽을 노란 선으로 표시한 Civil Twilight의 손전등 점등 화면"
+cover_caption: "일반 플레이 화면 위에 진단에서 얻은 실제 WindowGlass 메시의 윤곽을 노란 선으로 겹쳤다. 선 안쪽에서 청백색 유리 면을 확인할 수 있다. 2026년 8월 8일 촬영."
 ---
 
 건물 옆을 달리다가 창으로 몸을 던졌어요. 기력도 줄고 살갗도 조금 다쳤지만, 화면에서
@@ -40,18 +40,20 @@ cover_caption: "수정 뒤 다시 촬영한 화면. 손전등이 닿은 창틀 �
 위치를 읽을 수 있어요.
 
 <figure>
-  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/lit.png' | relative_url }}" alt="요원이 손전등을 비춘 창에 밝은 청백색 유리 반사가 나타난 야간 화면">
-  <figcaption>수정 뒤 같은 창을 비춘 화면. 창틀 안쪽의 청백색 면과 사선 반사띠가 실제 유리 위치에 남는다. 2026년 8월 8일 촬영.</figcaption>
+  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/lit.png' | relative_url }}" alt="손전등 점등 화면에서 실제 유리 메시의 사각 윤곽을 노란 선으로 표시한 모습">
+  <figcaption>수정 뒤 같은 창을 비춘 일반 화면. 노란 선은 별도 진단에서 얻은 실제 유리 메시의 실루엣이고, 그 안쪽에 청백색 면과 사선 반사띠가 남는다. 2026년 8월 8일 촬영.</figcaption>
 </figure>
 
 사진 검수도 바꿨어요. 이전 촬영은 처음에만 창을 조준했고, 캡처를 기다리는 동안 마우스
 입력이 조준을 다른 벽으로 돌렸어요. 이제는 매 프레임 같은 창을 향하도록 고정하고,
-카메라에 투영된 유리의 네 모서리를 잘라 점등 전후를 비교해요. 손전등 광원만 숨긴
-진단 화면에서도 아래 반사띠가 남아서, 뒤쪽 벽의 광점을 다시 유리로 오인하지 않게 했어요.
+카메라에 투영된 유리의 네 모서리를 잘라 점등 전후를 비교해요. 손전등 광원만 숨기는
+것으로는 부족했어요. 유리 뒤의 벽이 화면에 남아 있으면 무엇이 빛난 것인지 여전히
+헷갈리니까요. 그래서 일반 화면은 그대로 보관하고, 별도 진단 화면에서는 유리 메시를
+제외한 모든 지오메트리를 숨겼어요. 그 실루엣을 일반 화면에도 겹쳐 같은 위치인지 확인해요.
 
 <figure>
-  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/glass-signal.png' | relative_url }}" alt="손전등 광원을 숨긴 진단 화면에서 창틀 안쪽 유리 면에만 남은 청백색 사선 반사띠">
-  <figcaption>물리 손전등 광원을 숨긴 진단 확대 화면. 청백색 신호가 벽이 아니라 창틀 안쪽 유리 면에 남는다. 2026년 8월 8일 촬영.</figcaption>
+  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/glass-signal.png' | relative_url }}" alt="검은 배경에 WindowGlass 메시만 남긴 진단 화면의 청백색 유리 면과 사선 반사띠">
+  <figcaption>유리 메시만 남긴 진단 확대 화면. 벽을 비롯한 다른 지오메트리가 없는 검은 배경에서도 청백색 유리 면과 사선 반사띠가 남는다. 2026년 8월 8일 촬영.</figcaption>
 </figure>
 
 처음 몸이 닿는 순간에는 실제 유리 파쇄 녹음이 나고, 그 밤 동안 그 창의 유리면이
@@ -60,8 +62,8 @@ cover_caption: "수정 뒤 다시 촬영한 화면. 손전등이 닿은 창틀 �
 상태가 화면과 규칙에 같이 남아야 파괴가 사건으로 읽혀요.
 
 <figure>
-  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/broken.png' | relative_url }}" alt="같은 창의 유리가 깨져 손전등 아래 강한 청백색 반사가 사라진 야간 화면">
-  <figcaption>같은 창을 깬 뒤의 화면. 창틀 안쪽 청백색 면이 사라지고 어두운 개구부가 남는다. 2026년 8월 8일 촬영.</figcaption>
+  <img src="{{ '/assets/posts/2026-08-08-window-glass-penalty/broken.png' | relative_url }}" alt="깨진 뒤 같은 유리 메시의 윤곽 안에서 청백색 면이 사라진 손전등 점등 화면">
+  <figcaption>같은 창을 깬 뒤의 일반 화면. 같은 노란 윤곽 안에서 청백색 면이 사라지고 어두운 개구부가 남는다. 2026년 8월 8일 촬영.</figcaption>
 </figure>
 
 ## 큰 소리는 도착점을 바꾼다
