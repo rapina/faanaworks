@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "관측망에서 구역을 지운 날"
-date: 2026-08-08 02:30:00 +0900
+date: 2026-08-08 02:00:00 +0900
 project: "Civil Twilight"
 reading_time: "6분"
 summary: "구역을 고르는 지도는 왜 수위의 층으로 바뀌었을까. 카메라와 라벨을 계속 고치다가 데이터 구조까지 돌아간 기록."
