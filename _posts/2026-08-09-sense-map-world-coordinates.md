@@ -3,11 +3,11 @@ layout: post
 title: "빨라진 감각 지도가 왜 틀린 지도가 되었나"
 date: 2026-08-09 20:45:00 +0900
 project: "Civil Twilight"
-reading_time: "4분"
+reading_time: "5분"
 summary: "괴이 감각 판을 텍스처로 얼리자 프레임은 안정됐지만, 카메라가 움직인 뒤 정보가 월드 좌표를 떠났어요. 문제를 그리는 방식보다 감각 정보의 소유권에서 다시 풀었습니다."
 cover: "/assets/posts/2026-08-09-sense-map-world-coordinates/influence-map.png"
-cover_alt: "Civil Twilight 실내 장면 위에 실제 소음의 청록색 영향력 셀과 괴이 세 마리의 시야·판정 정보가 겹쳐진 개발 화면"
-cover_caption: "실제 소음 사건의 영향력장과 괴이 셋의 시야를 함께 표시한 장면. 2026년 8월 9일 촬영."
+cover_alt: "Civil Twilight 실내 장면의 바닥 위에 실제 소음의 청록색 영향력 셀이 펼쳐진 개발 화면"
+cover_caption: "실제 소음 사건이 생긴 첫 프레임의 영향력장. 2026년 8월 9일 촬영."
 ---
 
 감각 판을 투명 텍스처 한 장으로 얼린 뒤 프레임은 안정됐어요. 괴이 아홉 마리를 세워도
@@ -44,8 +44,32 @@ cover_caption: "실제 소음 사건의 영향력장과 괴이 셋의 시야를 
 카메라로 매 프레임 투영합니다. 이제 보존하는 것은 픽셀이 아니라 사건과 세계 좌표예요.
 
 <figure>
-  <img src="{{ '/assets/posts/2026-08-09-sense-map-world-coordinates/influence-map.png' | relative_url }}" alt="실내 지형 위에 청록색 실제 소음 영향력 셀, 노란 시야 부채꼴과 괴이 판정 원이 겹쳐 표시된 Civil Twilight 개발 화면">
-  <figcaption>청록 점은 괴이의 가상 청각 범위가 아니라 실제 소음 사건이 남긴 음압이다. 시야 부채꼴과 몸 판정은 개체별 표시로 분리했다. 2026년 8월 9일 촬영.</figcaption>
+  <img src="{{ '/assets/posts/2026-08-09-sense-map-world-coordinates/influence-map.png' | relative_url }}" alt="실내 지형 바닥 위에 청록색 실제 소음 영향력 셀이 넓게 펼쳐진 Civil Twilight 개발 화면">
+  <figcaption>사건이 생긴 첫 프레임. 청록 점은 괴이의 가상 청각 범위가 아니라 실제 소음이 각 셀에 남긴 음압이다. 2026년 8월 9일 촬영.</figcaption>
+</figure>
+
+## 화면에서 무엇을 읽는가
+
+청록 점은 현재 층에 도달한 실제 음압이고, 밝을수록 강해요. 청록 고리는 발원지입니다.
+다른 층에서 계단을 타고 들어온 값이 있으면 점과 포털 고리를 파란색으로 바꿔, 현재
+층에서 난 소리와 층간 유입을 가릅니다.
+
+노란 부채꼴은 여전히 괴이마다 계산한 시야예요. 붉거나 주황인 원과 선은 몸 판정과 AI
+상태, 십자는 목적지를 나타냅니다. 사건 기반 감각과 개체 기반 감각을 색뿐 아니라
+소유권으로도 분리해, 한쪽을 최적화할 때 다른 쪽의 의미를 바꾸지 않게 했어요.
+
+<figure>
+  <img src="{{ '/assets/posts/2026-08-09-sense-map-world-coordinates/influence-with-entities.png' | relative_url }}" alt="청록색 실제 음압 셀 위에 괴이 세 마리의 노란 시야 부채꼴, 몸 판정 원과 상태 정보가 표시된 Civil Twilight 개발 화면">
+  <figcaption>같은 소음 사건이 살아 있는 동안의 감각 판. 공유 음압장 위에 괴이별 시야·몸·목적지를 따로 겹친다. 상단에는 영향력 860셀과 발원 사건 하나가 표시되어 있다. 2026년 8월 9일 촬영.</figcaption>
+</figure>
+
+소음 사건의 수명이 끝나면 공유 영향력장만 사라집니다. 괴이의 시야와 몸 판정은 그대로
+남아요. 이 차이가 중요했어요. 화면 캐시를 지우는 식이라면 둘이 함께 깜박이거나 지난
+픽셀이 남을 수 있지만, 지금은 사건의 수명이 세계 데이터에서 직접 화면을 거둡니다.
+
+<figure>
+  <img src="{{ '/assets/posts/2026-08-09-sense-map-world-coordinates/influence-expired.png' | relative_url }}" alt="청록색 음압 셀은 사라지고 괴이 세 마리의 시야 부채꼴과 몸 판정만 남은 Civil Twilight 개발 화면">
+  <figcaption>같은 연속 촬영의 뒤 프레임. 상단 영향력이 0셀·0사건이 되자 청록 음압장만 사라지고 개체별 진단 정보는 남았다. 2026년 8월 9일 촬영.</figcaption>
 </figure>
 
 ## 복층은 포개지 않고 잇는다
