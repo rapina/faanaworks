@@ -47,6 +47,17 @@ def main() -> int:
         for image in re.findall(r"'/([^']+\.(?:png|jpg|jpeg|webp))'", body):
             if not (ROOT / image).is_file():
                 problems.append(f"{post.relative_to(ROOT)}: 이미지 없음 {image}")
+        clips = re.findall(r"'/([^']+\.mp4)'", body)
+        for clip in clips:
+            path = ROOT / clip
+            if not path.is_file():
+                problems.append(f"{post.relative_to(ROOT)}: 영상 없음 {clip}")
+            elif path.stat().st_size > 2 * 1024 * 1024:
+                size = path.stat().st_size / 1024 / 1024
+                problems.append(f"{post.relative_to(ROOT)}: 영상 2MB 초과 {clip} ({size:.1f}MB)")
+        # 키 영상은 한 개다. 둘이 되면 글이 아니라 재생 목록이 된다 (AGENTS.md).
+        if len(set(clips)) > 1:
+            problems.append(f"{post.relative_to(ROOT)}: 영상이 둘 이상 {sorted(set(clips))}")
     if not list(POSTS.glob("*.md")):
         problems.append("게시글이 없다")
     if problems:
