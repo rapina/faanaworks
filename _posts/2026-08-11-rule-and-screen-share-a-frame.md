@@ -62,6 +62,11 @@ cover_caption: "옮긴 직후. 오른쪽 아래의 흰 자국이 방금 전까�
 어느 쪽이 무서운지는 취향이겠지만, 하나는 화면에 있고 하나는 없어요. 없는 규칙은 규칙이
 아니라고 생각했습니다.
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-rule-and-screen-share-a-frame/jump.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>껐다 켜기를 네 번 반복한 6초. 불이 들어오는 프레임마다 몸이 2.2칸씩 가까워지고, 떠난 자리에 잔광이 남는다. 옮기는 장면 자체는 한 번도 없다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 문턱을 둘 두는 이유
 
 여기서 실수하기 쉬운 게 하나 더 있었어요. 밝기 문턱을 하나만 두면 그 언저리에서 값이

@@ -42,6 +42,11 @@ cover_caption: "맨 위 칸에 건전지가 들어 있다. 아래 두 칸은 비
   <figcaption>다가오는 중. 걸음은 요원보다 느리다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-a-cabinet-that-holds-my-things/take.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>보관함이 다가와 스치고 물러나는 7초. 스친 순간 맨 위 칸에 그림이 하나 뜬다. 체력 계기는 움직이지 않는다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 몸의 크기는 칸이 읽히는 크기가 정했어요
 
 처음 치수는 폭 0.86미터에 높이 1.62미터였습니다. 사람보다 조금 작은 로커요. 캡처를
