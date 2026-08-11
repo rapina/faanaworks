@@ -72,6 +72,11 @@ cover_caption: "네 번 확인한 뒤. 처음에는 하나였다. 괴이 샌드�
 그런데 머리 위를 새로 가로지른 선은 띕니다. 개수를 세는 건 기둥인데 **늘어났다는 걸
 말하는 건 선**이에요. 표지 하나 안 늘리고 얻은 신호라 이건 좀 마음에 듭니다.
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-dark-bodies-need-a-bright-floor/grow.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>손전등을 껐다 켜기를 네 번 반복한 7초. 꺼진 사이에 기둥이 하나씩 늘고, 늘어난 것을 먼저 알리는 것은 머리 위로 새로 가로지르는 전선이다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 아직 모르는 것
 
 새 기둥은 요원에게서 세 칸 밖에만 섭니다. 처음엔 1.6칸이었는데, 그 거리면 새 기둥이

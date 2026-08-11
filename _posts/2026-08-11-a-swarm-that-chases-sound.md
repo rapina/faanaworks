@@ -42,6 +42,11 @@ cover_caption: "요원 자리에서 소리가 한 번 난 직후. 무리가 그�
   <figcaption>무리가 도착한 뒤. 이 안에 서 있으면 청구가 나간다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-a-swarm-that-chases-sound/drawn.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>요원 자리에서 소리가 한 번 난 뒤의 5초. 무리가 그 자리로 흐르고, 낱장이 각자 다른 박자로 돈다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 낱장마다 노드를 세우지 않았어요
 
 이 종의 실루엣은 낱장이 아니라 **무리의 윤곽**입니다. 그래서 인스턴싱을 썼어요. 그리기는

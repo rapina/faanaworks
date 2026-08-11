@@ -48,6 +48,11 @@ cover_caption: "외벽에 붙은 계량기. 어두운 통에 밝은 테. 괴이 
   <figcaption>요원이 그 건물 안으로 들어간 뒤. 몸은 벽 바깥이라 이 화면에 없다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-something-is-on-the-wall/follow.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>요원이 벽 앞까지 걸어가 건물 안으로 들어가는 5초. 앞의 절반에는 외벽에 붙은 몸이 보이고, 들어간 뒤로는 화면에서 사라진다. 이 글의 문제가 그 후반이다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 그런데 예고가 없어요
 
 두 번째 사진이 이 글의 문제입니다. 요원이 실내에 있고 몸은 벽 바깥에 있어요. 규칙이

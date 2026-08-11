@@ -37,6 +37,11 @@ cover_caption: "아직 선일 때. 지나갈 수 있다. 괴이 샌드박스 화
   <figcaption>네 변이 다 닫힌 뒤. 몇 분 전까지 도로였다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-lines-that-become-walls/build.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>네 변이 차례로 닫히는 25초를 세 배로 돌린 8초. 다음에 닫힐 변만 밝고, 채워진 변은 선이 꺼지며 벽으로 바뀐다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 예고를 따로 안 만들었어요
 
 이 게임에는 필드에 표식을 안 쓴다는 규율이 있습니다. 화살표나 경고 아이콘 같은 걸 안

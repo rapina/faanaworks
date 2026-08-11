@@ -38,6 +38,11 @@ cover_caption: "요원이 물 안을 걸을 때. 화면에 퍼지는 고리가 �
 있는 땅이 줄어들어요. 밤이 한 방향으로만 간다는 걸 규칙 하나 더 안 넣고 지형으로
 말하는 셈입니다.
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-water-that-only-rises/rise.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>물이 넓어지고 요원이 그 안으로 들어가는 7초. 물가 선이 밀려나고, 물 안에서 움직이는 동안 화면에 소리 고리가 반복해서 뜬다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 낮은 곳부터 잠기게 하고 싶었어요
 
 원래 쓰려던 규칙은 "낮은 곳부터 잠긴다"였습니다. 물이니까요.

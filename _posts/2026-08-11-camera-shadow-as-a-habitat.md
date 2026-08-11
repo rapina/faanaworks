@@ -51,6 +51,11 @@ cover_caption: "골목 코너의 볼록 반사경. 거울 면은 비추어도 �
   <figcaption>요원이 그 자리에 들어선 뒤. 오른쪽 건물이 만드는 사각 안이다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-camera-shadow-as-a-habitat/enter.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>요원이 반사경 쪽으로 걸어 들어가는 4.5초. 트인 자리에서는 아무 일도 없고, 건물이 만드는 사각에 들어선 뒤부터 붙듦이 찬다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 검사가 지형을 가정하면 안 됐어요
 
 첫 검사는 "요원은 트인 데 서 있다"를 전제로 단언했습니다. 밤마다 도시가 다르니까 그

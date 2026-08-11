@@ -35,6 +35,11 @@ cover_caption: "다가간 뒤. 같은 더미가 처음에는 무릎 높이였다
   <figcaption>같은 자리로 물러난 뒤. 크기는 그대로다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
 </figure>
 
+<figure>
+  <video src="{{ '/assets/posts/2026-08-11-the-only-body-with-perspective/grow.mp4' | relative_url }}" controls muted loop playsinline width="620"></video>
+  <figcaption>다가갔다 물러나는 5초. 거리에 따라 자라고, 돌아 나오는 동안에도 크기는 그대로다. 이 카메라에서 거리가 크기를 바꾸는 것은 이 몸뿐이다. 괴이 샌드박스 화면. 2026년 8월 11일 촬영.</figcaption>
+</figure>
+
 ## 되돌아오면 눈속임이 돼요
 
 처음엔 거리 함수로만 만들었어요. 가까우면 크고 멀면 작게요. 그렇게 하면 왔다 갔다 할
