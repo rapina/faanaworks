@@ -3,6 +3,7 @@ layout: post
 title: "우주에서 온 색채는 왜 네온 리본이 되었나"
 date: 2026-08-10 02:35:00 +0900
 project: "Civil Twilight"
+subject: "viscous"
 reading_time: "4분"
 summary: "회보라색 오염 흔적에 공용 색채를 강하게 되살렸더니 자홍색 리본이 되었습니다. 색의 세기보다 한 화면 안의 위상을 나눠야 했어요."
 cover: "/assets/posts/2026-08-10-cosmic-color-not-neon/final-trail.png"

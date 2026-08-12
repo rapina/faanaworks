@@ -3,6 +3,7 @@ layout: post
 title: "네 다리로 걷는 것이 방향을 바꾸는 데 걸리는 시간"
 date: 2026-08-11 10:20:00 +0900
 project: "Civil Twilight"
+subject: "surveyor"
 reading_time: "5분"
 summary: "도시를 헤집는 다리 넷짜리 괴이가 건물을 그냥 통과해서 걷고 있었어요. 벽을 피하게 만드는 건 쉬웠는데, 피하려고 방향을 꺾은 순간 다리가 몸에서 떨어졌습니다."
 cover: "/assets/posts/2026-08-11-surveyor-turns-slowly/stance.png"

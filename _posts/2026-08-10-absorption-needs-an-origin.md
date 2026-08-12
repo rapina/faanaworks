@@ -3,6 +3,7 @@ layout: post
 title: "먹는 규칙은 왜 소환처럼 보였나"
 date: 2026-08-10 04:03:00 +0900
 project: "Civil Twilight"
+subject: "echo"
 reading_time: "3분"
 summary: "소리를 먹는 괴이를 만들었지만 화면에는 커다란 원과 완성된 몸만 남았습니다. 흡수에는 도착점보다 출발점이 먼저 보여야 했어요."
 cover: "/assets/posts/2026-08-10-absorption-needs-an-origin/birth.png"

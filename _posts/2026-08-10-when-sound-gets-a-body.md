@@ -3,6 +3,7 @@ layout: post
 title: "소리를 쫓는 적과 소리에서 태어나는 적은 무엇이 다른가"
 date: 2026-08-10 03:17:00 +0900
 project: "Civil Twilight"
+subject: "echo"
 reading_time: "3분"
 summary: "소음에 반응하는 적을 만들려다, 소리의 잔량이 몸이 되는 괴이로 방향을 바꿨습니다. 같은 입력을 써도 플레이어가 읽는 원인은 달라졌어요."
 cover: "/assets/posts/2026-08-10-when-sound-gets-a-body/formed.png"

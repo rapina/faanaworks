@@ -3,6 +3,7 @@ layout: post
 title: "화면이 바뀌었다는 측정은 무엇을 증명하나요"
 date: 2026-08-10 13:10:00 +0900
 project: "Civil Twilight"
+subject: "soot"
 reading_time: "6분"
 summary: "빛을 먹는 괴이를 만들면서 픽셀 차이로 존재를 쟀어요. 숫자는 계속 늘어났는데 화면에는 아무것도 없었고, 그 둘이 어긋난 이유는 제가 노이즈 바닥을 재 본 적이 없다는 데 있었어요."
 cover: "/assets/posts/2026-08-10-what-a-pixel-diff-proves/soot-in-beam.png"

@@ -3,6 +3,7 @@ layout: post
 title: "요원을 안 쫓고 소리를 쫓게 했더니 답이 이미 배낭에 있었어요"
 date: 2026-08-11 15:20:00 +0900
 project: "Civil Twilight"
+subject: "notice"
 reading_time: "4분"
 summary: "고지서 240장이 소리 난 자리로 몰립니다. 쫓는 게 요원이 아니라 소리라서, 새 도구를 하나도 안 만들고 이탈 수단이 생겼어요."
 cover: "/assets/posts/2026-08-11-a-swarm-that-chases-sound/drawn.png"

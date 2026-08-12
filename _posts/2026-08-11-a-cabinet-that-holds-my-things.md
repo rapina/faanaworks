@@ -3,6 +3,7 @@ layout: post
 title: "체력을 안 깎고 가방을 가져가는 괴이"
 date: 2026-08-11 14:40:00 +0900
 project: "Civil Twilight"
+subject: "impound"
 reading_time: "5분"
 summary: "다리 달린 유실물 보관함이 요원을 스치고 지나가면서 배낭에서 물건 하나를 꺼내 갑니다. 유리칸에 그게 그대로 떠 있어요."
 cover: "/assets/posts/2026-08-11-a-cabinet-that-holds-my-things/panes.png"

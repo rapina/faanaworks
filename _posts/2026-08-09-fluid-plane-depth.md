@@ -3,6 +3,7 @@ layout: post
 title: "유체보다 큰 평면은 왜 손전등을 삼켰나"
 date: 2026-08-09 23:35:00 +0900
 project: "Civil Twilight"
+subject: "viscous"
 reading_time: "3분"
 summary: "붉은 점액의 모양은 잘 나왔는데, 그 뒤의 손전등 빛까지 꺼졌어요. 투명한 픽셀도 깊이에 참여하는 넓은 평면이 원인이었습니다."
 cover: "/assets/posts/2026-08-09-fluid-plane-depth/fluid_on.png"

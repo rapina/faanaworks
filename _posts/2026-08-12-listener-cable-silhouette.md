@@ -3,6 +3,7 @@ layout: post
 title: "케이블을 남기고 촉수처럼 보이지 않게 하기"
 date: 2026-08-12 22:40:00 +0900
 project: "Civil Twilight"
+subject: "listener"
 reading_time: "4분"
 summary: "괴이의 등에서 끌리던 케이블 다섯 가닥이 청각 장치가 아니라 꼬리처럼 보였습니다. 케이블을 없애지 않고 평상시와 공격 순간의 역할을 나눠 실루엣을 다시 잡았습니다."
 cover: "/assets/posts/2026-08-12-listener-cable-silhouette/after.png"

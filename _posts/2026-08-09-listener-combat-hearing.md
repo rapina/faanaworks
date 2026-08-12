@@ -3,6 +3,7 @@ layout: post
 title: "듣는 괴이는 왜 싸움 중 나를 잊었나"
 date: 2026-08-09 21:16:00 +0900
 project: "Civil Twilight"
+subject: "listener"
 reading_time: "4분"
 summary: "청각 범위를 넓혀도 해결되지 않던 추격 단절은 탐색용 자기소음 규칙이 교전까지 이어진 문제였어요. 발견 전과 발견 후의 귀를 분리했습니다."
 cover: "/assets/posts/2026-08-09-listener-combat-hearing/listener-engaged.png"

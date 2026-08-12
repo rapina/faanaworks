@@ -3,6 +3,7 @@ layout: post
 title: "안 보일 때만 움직이는 괴물은 도착지를 언제 봐야 하나"
 date: 2026-08-08 06:10:00 +0900
 project: "Civil Twilight"
+subject: "waiter"
 reading_time: "3분"
 summary: "현재 자리가 어둡다는 판정만으로 움직이자 괴물이 빛 속에서 드러났어요. 이동 전과 후를 한 행동으로 묶어 검사한 수정이에요."
 cover: "/assets/posts/2026-08-08-waiter-visible-step/held.png"
