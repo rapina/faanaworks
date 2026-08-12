@@ -3,6 +3,7 @@ layout: post
 title: "서로 떨어진 정류장을 한 노선으로 보이게 하려면"
 date: 2026-08-09 14:36:00 +0900
 project: "Civil Twilight"
+subject: "busstop"
 reading_time: "3분"
 summary: "같은 도로 위의 정류장들이 서로 무관한 소환 장치처럼 보였어요. 현재 순번과 두 이웃을 표지판에 적자, 떨어진 자리 사이에 처음으로 방향이 생겼어요."
 cover: "/assets/posts/2026-08-09-busstop-neighbor-numbers/sequence-plate.png"

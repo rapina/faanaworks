@@ -3,6 +3,7 @@ layout: post
 title: "벽 앞에서도 방향을 바꾸지 않는 괴이"
 date: 2026-08-11 23:20:00 +0900
 project: "Civil Twilight"
+subject: "demolition"
 reading_time: "6분"
 summary: "철거는 요원을 쫓지 않고, 멈춰 있을 때 들은 방향으로만 굴러갑니다. 그 고집을 지키려면 벽을 장애물이 아니라 바뀌는 도시로 다뤄야 했어요."
 cover: "/assets/posts/2026-08-11-the-ball-that-does-not-turn/cover.png"

@@ -3,6 +3,7 @@ layout: post
 title: "실내가 안전한 이유가 벽이었는데"
 date: 2026-08-11 16:00:00 +0900
 project: "Civil Twilight"
+subject: "meter"
 reading_time: "5분"
 summary: "건물을 부수지도 들어오지도 않고 외벽에 붙어 따라오는 괴이를 만들었어요. 규칙은 도는데 예고가 화면에 없습니다."
 cover: "/assets/posts/2026-08-11-something-is-on-the-wall/wall.png"

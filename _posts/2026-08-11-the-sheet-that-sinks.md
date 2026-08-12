@@ -3,6 +3,7 @@ layout: post
 title: "멈추는 것이 답이던 게임에서 멈춤에 값을 매기면"
 date: 2026-08-11 16:40:00 +0900
 project: "Civil Twilight"
+subject: "curing"
 reading_time: "4분"
 summary: "도로를 덮은 양생 비닐 위에서는 서 있는 것이 걷는 것보다 비쌉니다. 만들고 보니 천이 화면에서 통째로 사라져 있었어요."
 cover: "/assets/posts/2026-08-11-the-sheet-that-sinks/deep.png"

@@ -3,6 +3,7 @@ layout: post
 title: "표정을 넷 만들었는데 왜 셋이 같은 얼굴이었나"
 date: 2026-08-11 16:40:00 +0900
 project: "Civil Twilight"
+subject: "surveyor"
 reading_time: "5분"
 summary: "괴이의 얼굴에 표정 넷을 넣고 걸음마다 바뀌게 했어요. 아틀라스에서는 분명 다른 넷인데, 화면 크기로 줄이니 셋이 구별되지 않았습니다."
 cover: "/assets/posts/2026-08-11-expression-at-96px/stance.png"

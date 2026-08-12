@@ -3,6 +3,7 @@ layout: post
 title: "비추면 멈추는 괴물은 왜 빛 속에서 다가왔나"
 date: 2026-08-08 03:45:00 +0900
 project: "Civil Twilight"
+subject: "waiter"
 reading_time: "4분"
 summary: "손전등 가장자리에 걸린 괴물이 조금씩 가까워졌어요. 부드러운 화면과 타일 판정 사이에 결박의 이력을 남겨 규칙을 다시 맞췄어요."
 cover: "/assets/posts/2026-08-08-waiter-light-edge/held.png"

@@ -3,6 +3,7 @@ layout: post
 title: "공격하지 않는 괴물은 어떻게 길을 위협할까"
 date: 2026-08-08 16:33:00 +0900
 project: "Civil Twilight"
+subject: "smile"
 reading_time: "4분"
 summary: "총알은 튕기는데 몸은 통과하던 입간판 괴물에서 접촉 피해를 빼고, 오래 비출수록 작은 판이 나와 길을 막는 유한한 세대로 바꿨어요."
 cover: "/assets/posts/2026-08-08-smile-blocking-lineage/family.png"

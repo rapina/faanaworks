@@ -3,6 +3,7 @@ layout: post
 title: "빛이 꺼지는 순간에 일어나는 일은 아무도 못 봐요"
 date: 2026-08-11 12:40:00 +0900
 project: "Civil Twilight"
+subject: "flicker"
 reading_time: "5분"
 summary: "불이 끊기는 그 한 프레임에만 자리를 옮기는 괴이를 만들었어요. 규칙은 완벽하게 돌았고, 화면에서는 아무 일도 일어나지 않았습니다."
 cover: "/assets/posts/2026-08-11-rule-and-screen-share-a-frame/ghost.png"

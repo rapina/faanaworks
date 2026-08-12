@@ -3,6 +3,7 @@ layout: post
 title: "도면선이 한 변씩 벽이 되는 걸 보고 있으면"
 date: 2026-08-11 18:00:00 +0900
 project: "Civil Twilight"
+subject: "newbuild"
 reading_time: "4분"
 summary: "도시를 부수는 괴이는 이미 있었어요. 같은 문 하나로 반대 방향을 하면 어떻게 되는지 궁금했습니다."
 cover: "/assets/posts/2026-08-11-lines-that-become-walls/plan.png"

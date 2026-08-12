@@ -3,6 +3,7 @@ layout: post
 title: "움직이는 괴이는 왜 정지된 파편처럼 보였나"
 date: 2026-08-10 03:05:00 +0900
 project: "Civil Twilight"
+subject: "warp_organism"
 reading_time: "3분"
 summary: "몸은 계속 커졌다 작아졌지만 화면에서는 흰 별 하나로 굳었습니다. 유기적인 움직임은 수치보다 실루엣의 빈 곳을 바꿔야 보였어요."
 cover: "/assets/posts/2026-08-10-organic-motion-must-change-silhouette/open.png"

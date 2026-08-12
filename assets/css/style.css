@@ -121,6 +121,19 @@ figcaption { margin-top: 12px; color: #928a7c; font: 400 11px/1.65 var(--mono); 
 .post-body figure img { width: 100%; border: 1px solid var(--line); }
 .post-back { max-width: 950px; margin: 100px auto 0; padding-top: 24px; border-top: 1px solid var(--line); color: var(--amber); font: 500 12px/1 var(--mono); }
 
+.post-kin { max-width: 950px; margin: 110px auto 0; padding-top: 34px; border-top: 1px solid var(--line); }
+.post-kin .eyebrow { margin-bottom: 14px; }
+.post-kin h2 { margin: 0 0 30px; color: var(--paper); font: 700 26px/1.35 var(--display); letter-spacing: -.02em; }
+.post-kin ol { counter-reset: kin; margin: 0; padding: 0; list-style: none; border-bottom: 1px solid rgba(216, 209, 193, .1); }
+.post-kin li { display: grid; grid-template-columns: 30px 92px minmax(0, 1fr); gap: 18px; align-items: baseline; padding: 15px 0; border-top: 1px solid rgba(216, 209, 193, .1); }
+.post-kin li::before { counter-increment: kin; content: counter(kin, decimal-leading-zero); color: var(--cable); font: 500 12px/1.6 var(--mono); }
+.post-kin time { color: var(--paper-deep); font: 400 12px/1.6 var(--mono); }
+.post-kin a { color: var(--paper); font-size: 17px; line-height: 1.6; word-break: keep-all; }
+.post-kin a:hover, .post-kin a:focus-visible { color: var(--amber-pale); }
+.post-kin span { color: var(--paper-deep); font-size: 17px; line-height: 1.6; word-break: keep-all; }
+.post-kin [aria-current="page"]::before { color: var(--amber); }
+.post-kin + .post-back { margin-top: 40px; padding-top: 0; border-top: 0; }
+
 .about-hero { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; min-height: 600px; border-bottom: 1px solid var(--line); }
 .about-hero h1 { margin: 0; color: var(--paper); font: 700 clamp(64px, 9vw, 116px)/1 var(--display); letter-spacing: -.07em; }
 .about-lead { max-width: 480px; margin-top: 30px; color: var(--paper-deep); font-size: 19px; word-break: keep-all; }
@@ -176,6 +189,11 @@ figcaption { margin-top: 12px; color: #928a7c; font: 400 11px/1.65 var(--mono); 
   .post-body h2 { margin-top: 58px; font-size: 30px; }
   .post-body figure { margin: 42px -15px; }
   .post-body figure figcaption { padding-inline: 15px; }
+  .post-kin { margin-top: 76px; }
+  .post-kin h2 { font-size: 22px; }
+  .post-kin li { grid-template-columns: 26px minmax(0, 1fr); gap: 6px 14px; }
+  .post-kin time { grid-column: 2; }
+  .post-kin a, .post-kin span { grid-column: 2; font-size: 16px; }
   .about-hero { display: block; padding-top: 70px; }
   .about-hero img { height: 440px; margin: 52px -15px 0; width: calc(100% + 30px); border-left: 0; }
   .about-body { display: block; padding: 72px 0 90px; }

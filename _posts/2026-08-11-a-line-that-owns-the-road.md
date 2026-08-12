@@ -3,6 +3,7 @@ layout: post
 title: "여덟 명을 한 괴이로 만들지 않은 이유"
 date: 2026-08-11 23:40:00 +0900
 project: "Civil Twilight"
+subject: "procession"
 reading_time: "6분"
 summary: "행렬은 한 몸에 사람 여덟을 붙인 개체가 아니라, 같은 줄을 공유하는 여덟 개체입니다. 그래야 벽 뒤의 머리 때문에 눈앞의 꼬리까지 사라지지 않아요."
 cover: "/assets/posts/2026-08-11-a-line-that-owns-the-road/cover.png"

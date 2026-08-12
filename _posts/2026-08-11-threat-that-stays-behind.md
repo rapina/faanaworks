@@ -3,6 +3,7 @@ layout: post
 title: "쫓아오지 않는 괴이를 위협으로 만드는 법"
 date: 2026-08-11 21:30:00 +0900
 project: "Civil Twilight"
+subject: "dredge"
 reading_time: "6분"
 summary: "여덟 다리로 바닥을 기는 괴이를 새로 만들었어요. 이건 요원을 쫓지도, 보지도 않습니다. 위협을 몸이 아니라 지나간 자리에 두면 어떻게 되는지 해 봤습니다."
 cover: "/assets/posts/2026-08-11-threat-that-stays-behind/stance.png"

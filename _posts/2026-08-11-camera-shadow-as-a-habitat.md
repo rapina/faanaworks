@@ -3,6 +3,7 @@ layout: post
 title: "카메라가 만든 사각에 사는 것"
 date: 2026-08-11 14:00:00 +0900
 project: "Civil Twilight"
+subject: "blindspot"
 reading_time: "5분"
 summary: "건물 뒤에는 늘 화면이 못 보는 영역이 있어요. 지금까지 그건 표현의 문제였는데, 그 자리를 서식지로 쓰는 괴이를 만들면 숨는 것이 처음으로 비용이 됩니다."
 cover: "/assets/posts/2026-08-11-camera-shadow-as-a-habitat/mirror.png"

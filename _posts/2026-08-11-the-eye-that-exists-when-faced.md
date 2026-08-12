@@ -3,6 +3,7 @@ layout: post
 title: "마주 볼 때만 몸이 생기는 괴이"
 date: 2026-08-11 23:30:00 +0900
 project: "Civil Twilight"
+subject: "moon"
 reading_time: "6분"
 summary: "달은 늘 떠 있는 원반이 아니라, 조준을 돌려 마주친 순간에만 바닥에 생기는 눈입니다. 보이는 것과 붙잡히는 것이 같은 판정을 읽게 했어요."
 cover: "/assets/posts/2026-08-11-the-eye-that-exists-when-faced/cover.png"

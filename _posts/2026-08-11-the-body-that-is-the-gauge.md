@@ -3,6 +3,7 @@ layout: post
 title: "체력바 없이 남은 체력을 보여 주는 몸"
 date: 2026-08-11 23:10:00 +0900
 project: "Civil Twilight"
+subject: "chord"
 reading_time: "8분"
 summary: "줄뭉치 괴이를 만들면서, 몇 가닥 남았는지가 곧 사거리가 되게 했어요. 그런데 처음엔 열둘에서 아홉으로 줄여도 화면이 하나도 안 달라졌습니다."
 cover: "/assets/posts/2026-08-11-the-body-that-is-the-gauge/full.png"

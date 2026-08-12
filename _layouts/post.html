@@ -26,6 +26,28 @@ layout: default
     </aside>
     <div class="post-body">{{ content }}</div>
   </div>
+  {% if page.subject %}
+  {% assign kin = site.posts | where: "subject", page.subject | sort: "date" %}
+  {% if kin.size > 1 %}
+  {% assign subject = site.data.subjects | where: "id", page.subject | first %}
+  <section class="post-kin" aria-labelledby="kin-title">
+    <p class="eyebrow">SAME SUBJECT</p>
+    <h2 id="kin-title">{{ subject.name }}에 남긴 기록 {{ kin.size }}편</h2>
+    <ol>
+      {% for note in kin %}
+      <li{% if note.url == page.url %} aria-current="page"{% endif %}>
+        <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: '%Y.%m.%d' }}</time>
+        {% if note.url == page.url %}
+        <span>{{ note.title }}</span>
+        {% else %}
+        <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+  {% endif %}
   <nav class="post-back" aria-label="글 목록으로 돌아가기">
     <a href="{{ '/' | relative_url }}">← 개발 기록으로</a>
   </nav>

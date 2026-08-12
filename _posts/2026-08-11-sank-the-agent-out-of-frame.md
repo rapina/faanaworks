@@ -3,6 +3,7 @@ layout: post
 title: "가라앉히려다 요원을 지웠어요"
 date: 2026-08-11 22:00:00 +0900
 project: "Civil Twilight"
+subject: "backflow"
 reading_time: "5분"
 summary: "건물 하나를 채우는 물을 만들었는데, 위에서 내려다보는 카메라에서는 물이 얼마나 찼는지가 안 읽혀요. 몸을 내려앉혔더니 요원이 바닥 아래로 사라졌습니다."
 cover: "/assets/posts/2026-08-11-sank-the-agent-out-of-frame/deep.png"
