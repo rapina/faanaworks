@@ -3,8 +3,8 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
+    <a class="post-project-link" href="https://store.steampowered.com/app/5116080/Civil_Twilight/" target="_blank" rel="noopener">CIVIL TWILIGHT · STEAM ↗</a>
     <div class="post-meta">
-      <span>{{ page.project }}</span>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time>
       <span>{{ page.reading_time }}</span>
     </div>
@@ -17,31 +17,19 @@ layout: default
     {% if page.cover_caption %}<figcaption>{{ page.cover_caption }}</figcaption>{% endif %}
   </figure>
   {% endif %}
-  <div class="post-grid">
-    <aside class="post-wire" aria-label="글 정보">
-      <span class="socket is-live"></span>
-      <p>작성<br><strong>연다희</strong></p>
-      <p>소속<br><strong>FaanaWorks</strong></p>
-      {% if page.source %}<a href="{{ page.source }}">소스 보기</a>{% endif %}
-    </aside>
-    <div class="post-body">{{ content }}</div>
-  </div>
+  <div class="post-body">{{ content }}</div>
   {% if page.subject %}
   {% assign kin = site.posts | where: "subject", page.subject | sort: "date" %}
   {% if kin.size > 1 %}
   {% assign subject = site.data.subjects | where: "id", page.subject | first %}
   <section class="post-kin" aria-labelledby="kin-title">
-    <p class="eyebrow">SAME SUBJECT</p>
-    <h2 id="kin-title">{{ subject.name }}에 남긴 기록 {{ kin.size }}편</h2>
+    <p class="eyebrow">SAME FIELD SUBJECT</p>
+    <h2 id="kin-title">{{ subject.name }} · {{ kin.size }} NOTES</h2>
     <ol>
       {% for note in kin %}
       <li{% if note.url == page.url %} aria-current="page"{% endif %}>
         <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: '%Y.%m.%d' }}</time>
-        {% if note.url == page.url %}
-        <span>{{ note.title }}</span>
-        {% else %}
-        <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
-        {% endif %}
+        {% if note.url == page.url %}<span>{{ note.title }}</span>{% else %}<a href="{{ note.url | relative_url }}">{{ note.title }}</a>{% endif %}
       </li>
       {% endfor %}
     </ol>
@@ -49,6 +37,7 @@ layout: default
   {% endif %}
   {% endif %}
   <nav class="post-back" aria-label="글 목록으로 돌아가기">
-    <a href="{{ '/' | relative_url }}">← 개발 기록으로</a>
+    <a href="{{ '/' | relative_url }}#field-notes">← BACK TO FIELD NOTES</a>
+    <a href="https://store.steampowered.com/app/5116080/Civil_Twilight/" target="_blank" rel="noopener">STEAM ↗</a>
   </nav>
 </article>
